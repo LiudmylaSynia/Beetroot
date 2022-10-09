@@ -40,13 +40,14 @@ a:visited{
 }
 
 .container,.page-wrapper{
-    width: 1200 ;
+    max-width: 1200 ;
+    width: 100%;
     margin: 0 auto;
 }
 
 ul{
     padding: 50px;
-    line-height: 25px;
+    line-height: 19px;
     
 } 
 
