@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    
+    <form method="get" action="#">
+        <div class="main">
+        <fieldset>
+            <div class="field">
+            <label for="user_name">Повне ім'я</label>
+            <input type="text" name="name" id="user_name">
+            </div>
+            <div class="field">
+            <label for="user_email">Email</label>
+            <input type="text" name="email" id="user_email">
+            </div>
+            <div class="field">
+            <label for="user_password">Пароль</label>
+            <input type="password" name="password" id="user_password">
+            </div>
+            <div class="field">
+            <label for="user_password_repeat">Пароль ще раз</label>
+            <input type="password" name="password_repeat" id="user_password_repeat">
+            </div>
+            <div class="field">
+            <label for="gender">Стать</label>
+            <input type="radio" name="gender" value="чоловіча">
+            <input type="radio" name="gender" value="чоловіча">
+            </div>
+            <div class="field">
+            <label for="user_age">Вік</label>
+            <input type="text" name="age" id="user_age">
+            </div>
+            <div class="field">
+            <label for="course">Курс</label>
+            <select name="course" autofocus>
+                <option disabled="disabled" selected="selected">-=Виберіть курс=-</option>
+                <option value="Front-End">Front-End</option>
+                <option value="Back-End">Back-End</option>
+                <option value="Project Management">Project Management</option>
+                <option value="QA Manual">QA Manual</option>
+            </select>
+            </div>
+            <div class="field">
+            <label for="adress">Повна адреса</label>
+            <textarea  name = "adress" id="adress" placeholder = "Країна, регіон, місто/селище, вулиця"></textarea>
+            </div>
+            <input id="agreement" type="checkbox" name="agreement">
+            <label for="agreement"> Я погоджуюсь з обробкою персональних даних</label>
+             <div class="buttons_style">
+            <button type="reset" class="reset_but">Очистити форму</button>
+            <button type="submit">Зареєструватися</button>
+            </div>
+        </fieldset>
+    </div>
+        
+    </form>
+</body>
+</html>
