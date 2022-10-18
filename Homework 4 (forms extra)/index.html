@@ -42,21 +42,22 @@
                 <input type="text" name="age" id="age">
             </div>
             <div class="field">
-                <label for="floor">Ваш пол</label>
+                <label>Ваш пол</label>
                 <label><input type="radio" name="floor" checked required>Паркет</label>
                 <label><input type="radio" name="floor">Ламинат</label>
                 <label><input type="radio" name="floor">Ковролин</label>
             </div>
-            <div class="field"></div>
-            <label for="social" class="social_space">Социальные сети</label>
-            <label class="indent"><input id="social" type="checkbox" name="social" class="space">Лицокнига</label>
-            <label class="indent"><input id="social" type="checkbox" name="social">Птичка</label>
-            <label class="indent"><input id="social" type="checkbox" name="social">Инста</label>
-            <label class="indent"><input id="social" type="checkbox" name="social">Вк-шечка</label>
-            <label class="indent"><input id="social" type="checkbox" name="social">LinkedIn</label>
-            <label class="indent"><input id="social" type="checkbox" name="social">Тумблер</label>
-            </div>
+            <div class="field">
+            <label class="social_space">Социальные сети</label>
+            <label class="indent"><input id="face" type="checkbox" name="social" class="space">Лицокнига</label>
+            <label class="indent"><input id="twit" type="checkbox" name="social">Птичка</label>
+            <label class="indent"><input id="inst" type="checkbox" name="social">Инста</label>
+            <label class="indent"><input id="vk" type="checkbox" name="social">Вк-шечка</label>
+            <label class="indent"><input id="linkedin" type="checkbox" name="social">LinkedIn</label>
+            <label class="indent"><input id="tumbler" type="checkbox" name="social">Тумблер</label>
+        </div>
         </fieldset>
+        </div>
         <fieldset>
             <legend>Другая информация</legend>
             <div class="field">
@@ -68,12 +69,12 @@
                 <input type="text" name="tel" id="tel">
             </div>
             <div class="field">
-            <label for="time">Время следующего занятия</label>
+            <label>Время следующего занятия</label>
             <input type="time" id="appt" name="appt" required>
             </div>
             <div class="field">
                 <label for="link">Ссылка на любимый сайт</label>
-                <input type="link" name="link" id="link" placeholder = "https://google.com" required>
+                <input type="text" name="link" id="link" placeholder = "https://google.com" required>
             </div>
             <div class="field">
                 <label for="num">Число от 1 до 10</label>
@@ -87,7 +88,7 @@
         <fieldset>
             <legend>Не input-ы</legend>
             <div class="list">
-                <label for="drink" class="name_indent">Любимый напиток</label>
+                <label class="name_indent">Любимый напиток</label>
             <select name="drink" autofocus>
                 <option disabled="disabled" selected="selected">-=Выберите напиток=-</option>
                 <optgroup label="Безалкогольные">
@@ -105,7 +106,7 @@
                 </optgroup> 
             </select>
             <br><br>
-            <label for="drink" name_indent>Любимые напитки</label>
+            <label class="name_indent">Любимые напитки</label>
             <select name="like_drink[]" multiple>
                 <optgroup label="Безалкогольные">
                     <option value="tea">Чай</option>
@@ -123,8 +124,8 @@
             </select>
             </div>
             <div class="field">
-                <label for="comment">Комментарий на свободную тему</label>
-                <textarea  name = "adress" id="adress" cols="50" rows="6" placeholder = "В эту область помещается 50 символов в строке и 6 строк текста""></textarea>
+                <label>Комментарий на свободную тему</label>
+                <textarea  name = "adress" id="adress" cols="50" rows="6" placeholder = "В эту область помещается 50 символов в строке и 6 строк текста"></textarea>
             </div>
         </fieldset>
         <fieldset>
@@ -136,5 +137,6 @@
             <button disabled>Йа заблокирована:(</button>
             </div>
         </fieldset>
+    </form>
 </body>
 </html>
