@@ -26,32 +26,37 @@ body {
  
 }
 
-.flex_conteiner {
+.conteiner {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
 }
 
+
 #header {
     height: 80px;
     line-height: 80px;
-    margin-bottom: 71px;  
+    margin-bottom: 68px;  
+}
+
+.top_logo{
+    display: flex;
+    align-items: center;
+    gap: 11.94px;
+}
+
+
+.main_menu{
+    display: flex;
+    width: 352px;
+    gap: 20px;
+    align-items: center;
 }
 
 .top_menu  {
     list-style: none;
     display:flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.top_menu ul li {
-    display: inline-block;
-    margin-right: 16px; 
-}
-
-.resources{
-    margin-right: 180px;
+    justify-content: space-between;   
 }
 
 .top_menu ul li a {
@@ -66,20 +71,14 @@ body {
     color:#FF9900;
 }
 
+.sign_buttons{
+    display: flex;
+    gap: 32px;
+}
 
-.icon{
-    width: 33.83px;
-    margin-right: 8px;
-    padding-top: 27px;   
-   
-  }
-
-.logo{
-    width: 154.23px;
-    padding-top: 27px;
-    margin-right: 198px;
-   
-  } 
+.first_screen{
+    margin-bottom: 96px;
+}
 
 .font_edit{
     display: inline-block;
@@ -92,15 +91,19 @@ body {
     font-weight: 600;
     font-size: 16px;
     font-family: "Monserrat", sans-serif;
-    margin-top: 19px;
+    margin-top: 17px;
     line-height: 20px;
 }
 
-.sign_buttons :hover{
+.active_buttons{
+    display: flex;
+    width: 252px;
+    gap: 32px;
+}
+
+.active_buttons :hover{
     background-color: azure;
-    color:#000;
-    padding-top: 17px;  
-      
+    color:#000;       
 }
 
 .sign_in{ 
@@ -109,13 +112,11 @@ body {
     border: 1px solid #BCD0E5;
     padding: 13px 25px;
     border-radius: 4px;
-    margin-right: 32px; 
   }
 
 .sign_up{
     background-color: #FF9900;
     color: #fff;
-    font-weight: 700;
     border: 1px solid #FF9900;
     border-radius: 4px;
     padding: 13px 25px;
@@ -127,10 +128,18 @@ body {
     font-weight: 700;
     border: 1px solid #FF9900;
     border-radius: 4px;
-    padding: 13px 25px;
+    padding: 14px 25px;
     width: 180px;
     height: 50px;
-   
+}
+
+.center_bottom{
+    margin: 0 514px;
+}
+
+.people{
+    width: 982px;
+    height: 500px;
 }
 
 h1{
@@ -142,18 +151,26 @@ h1{
     padding-top: 100px;
 }
 
-
-.thinking{
-    margin-bottom: 196px;
-
+h2{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43.88px;
+    width: 539px;
+    text-align: center;
+    margin: 0 330px;
+    margin-bottom: 48.72px;
 }
 
-.people{
-
-    float: right;
+h3{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26.82px;
+    margin-bottom: 16px;
 }
 
-
+.flex_img{
+    display: flex;
+}
 
 .text{
     font-size: 18px;
@@ -161,8 +178,35 @@ h1{
     font-size: 18px;
     line-height: 28px;
     color: #544837;
-    margin-bottom: 10px;
     max-width: 500px;
     margin-right: 56px;
+    margin-bottom: 11px;
 }
 
+
+.started_bot:hover{
+    background-color: azure;
+    color: #000;
+}
+
+.tools_icon{
+    margin-bottom: 30px; 
+}
+
+.flex_designer_services{
+    display: flex;
+    margin-bottom: 70px;
+}
+
+.flex_designer_services {
+    background-image: url("./image/BG.png");
+    background-repeat: no-repeat;
+    height: 388.24px;
+}
+
+.word_width{
+    margin-bottom: 0px;
+    width: 257px;
+    height: 52px;
+    font-size: 16px;
+}
