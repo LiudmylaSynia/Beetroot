@@ -180,6 +180,10 @@ section {
   text-align: center;
 }
 
+.portfolio_links:hover{
+  color:blue
+}
+
 .invitation {
   margin-bottom: 55px;
 }
@@ -221,7 +225,6 @@ section {
 
 .invite {
   margin: 0  auto;
-  margin-bottom: 100px;
   width: 200px;
   height: 60px;
 }
