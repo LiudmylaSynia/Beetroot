@@ -76,6 +76,7 @@ h1 .wi{
 
 .weather_list li:hover{
     opacity: 1;
+    cursor: pointer;
 }
 
 .city_name{
