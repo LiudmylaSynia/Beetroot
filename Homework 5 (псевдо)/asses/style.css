@@ -92,19 +92,11 @@ input{
 }
 
 
-
-footer{
+.wishes{
+    padding: 12px 42px 12px 0;
     text-align: center;
     color:#FF8984;
     background-color: #4A4F56;
-    height: 45px;
-    max-width: 535px;
-    margin-left: 435px;
-    margin-bottom: 45px;
-}
-
-.wishes{
-    padding: 12px 42px 12px 0;
     
 }
 
@@ -155,7 +147,10 @@ label{
     display: inline-block;
 }
 
-
+.eat{
+    border-top: 3px solid rgba(0, 0, 0, 0);
+    border-bottom: 3px solid rgba(0, 0, 0, 0);
+}
 .eat:hover {
     background-color: #625E77;
     border-top: 3px solid #fff;
@@ -170,8 +165,12 @@ label{
 
 input:checked + label small{
     text-decoration: line-through;
+    color: #9B96AC;
+
 }
 
 input:checked + label{
     text-decoration: line-through;
+    color: #9B96AC;
+
 }
