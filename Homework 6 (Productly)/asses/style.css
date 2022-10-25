@@ -198,10 +198,8 @@ h3{
     margin-bottom: 70px;
 }
 
-.flex_designer_services {
-    background-image: url("./image/BG.png");
-    background-repeat: no-repeat;
-    height: 388.24px;
+.tools {
+    background: url("./image/BG.png") center bottom/cover no-repeat;
 }
 
 .word_width{
