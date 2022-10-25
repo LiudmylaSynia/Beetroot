@@ -24,7 +24,7 @@ ol {
 }
 
 .conteiner {
-    width: 100%;
+    width: 90%;
     max-width: 1170px;
     margin: 0 auto;  
 }
@@ -101,13 +101,11 @@ li.red_bg {
 }
 
 li.orange_bg {
-    background-color: #E2674A;
-  
+    background-color: #E2674A; 
 }
 
 li.dblue_bg {
-    background-color:#669999;
-    
+    background-color:#669999;    
 }
 
 li.pink_bg  {
@@ -117,37 +115,30 @@ li.pink_bg  {
 
 li.lblue_bg {
     background-color: #33CCCC;
-
 }
 
 li.yellow_bg {
     background-color: #FFCC66;
-    
 }
 
 li.lavanda_bg{
     background-color: #996699;
-   
 }
 
 li.lgreen_bg {
-    background-color: #99CC99;
-   
+    background-color: #99CC99;  
 }
 
 li.green_bg {
     background-color: #339966;
- 
 }
 
 li.violet_bg {
-    background-color: #666699;
-   
+    background-color: #666699;  
 }
 
 p {
     font-size: 16px;
-   
 }
 
 footer{
