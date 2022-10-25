@@ -101,7 +101,8 @@ li.red_bg {
 }
 
 li.orange_bg {
-    background-color: #E2674A; 
+    background-color: #E2674A;
+ 
 }
 
 li.dblue_bg {
@@ -143,5 +144,4 @@ p {
 
 footer{
     padding-top: 35px;
-    margin-bottom: 94px;
 }
