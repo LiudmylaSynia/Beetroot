@@ -71,11 +71,11 @@ h1 .wi{
 }
 
 .weather_list li{
-    opacity: 0.5;
+    opacity: 1;
 }
 
 .weather_list li:hover{
-    opacity: 1;
+    opacity: 0.5;
     cursor: pointer;
 }
 
