@@ -1,0 +1,132 @@
+*{
+  padding:0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+html,
+body{
+  height:100%;
+  width: 100%;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+  max-width: 100%;
+}
+
+body {
+  font-family: 'PT Sans';
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 48px; 
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header_style {
+  margin-bottom: 83px; 
+}
+
+
+h1 {
+  font-family: 'Francois One';
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-bottom: 38px;
+}
+
+.abbr {
+  font-family: 'Tourney';
+  font-weight: 600;
+  font-size: 22px;
+  letter-spacing: 0.06em;
+  line-height: 18px;
+  text-transform: uppercase;
+  margin-right: 45px;
+}
+
+.staat {
+  font-family: 'Staatliches';
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 27.5px;
+  letter-spacing: 0.03em;
+  color: #000;
+  text-decoration: none;
+}
+
+span.staat {
+  padding: 0 3px;
+}
+
+.end_staat {
+  margin-right: 593px;
+}
+
+sup {
+  font-family: 'Farro';
+  font-weight: 300;
+  font-size: 19px;
+  line-height: 17px;
+  letter-spacing: 0.0em;
+  text-transform: none;
+  vertical-align: text-top;
+}
+
+.text_link{
+  color:#000;
+}
+
+i {
+  font-family: PT Sans;
+}
+
+b {
+  font-family: PT Sans;
+  font-weight: 700;
+}
+
+mark {
+  display: inline-block;
+  background-color: lightgrey;
+  display: inline-block;
+  height: 48px;
+}
+
+section {
+  margin-bottom: 59px;
+}
+
+p {
+  margin-top: 28px;
+  margin-bottom: 31px;
+}
+
+ul li {
+  margin-bottom: 29px;
+}
+
+.indent_li {
+  margin-bottom: 40px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 30px;
+}
+ /* піцки в інший бік дивляться(  */
