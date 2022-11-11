@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create an account</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./asses/fonts/icomoon/style.css">
+  <link rel="stylesheet" href="./asses/plagins/formstyler/jquery.formstyler.css">
+  <link rel="stylesheet" href="./asses/plagins/formstyler/jquery.formstyler.theme.css">
+  <link rel="stylesheet" href="./asses/css/style.min.css">
+</head>
+<body>
+  <div class="account_form">
+  <div class="container">
+    <div class="create">
+      <form action="#" method="post">
+      <h1>Create an Account</h1>
+      <div class="flex_point">
+        <div class="form_row">
+          <label for="name">First name</label>
+          <div class="form-elem">
+            <input type="text" name="name" id="name">
+          </div>
+        </div>
+          <div class="form_row">
+            <label for="last_name">Last name</label>
+            <div class="form-elem">
+              <input type="text" name="name" id="last_name">
+            </div>
+          </div>
+        </div>
+          <div class="form_row">
+            <label for="email" class="little_word">E-mail</label>
+            <div class="form-elem">
+              <input type="email" name="email" id="email" class="large_mail">
+              <span >We'll never share your email with anyone else.</span>
+            </div>
+          </div>
+          <div class="choice">
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male" class="margin_male">Male</label>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">Female</label>
+          </div> 
+         <div class="flex_point">
+         <div class="form_row">
+          <label for="country">Country</label>
+          <div class="form-elem">
+              <div class="form_row">
+                <select name="country" id="country">
+                <option disabled="disabled" selected="selected">Select</option>
+                <option value="UA">Ukraine</option>
+                <option value="PG">Portugal</option>
+                <option value="GR">Germany</option>
+                <option value="FR">France</option>
+            </select>
+            </div>
+        </div>
+         </div>
+          <div class="form_row">
+            <label for="city">City</label>
+            <div class="form-elem">
+              <input type="text" name="city" id="city">
+            </div>
+          </div>
+        </div>
+          <div class="signup">
+            <div class="clearfix">
+              <button type="submit" class="btn">Sign Up</button>
+            </div>
+            <div class="center_text">
+              <span>By clicking the 'Sign Up' button, you confirm that you accept our <a href="#" class="term_pol">Terms of Use</a>
+                and <a href="#" class="term_pol">Privacy Policy</a>.</span>
+                <br>
+              <span class="login line_before"><a href="#" class="question">Have an account?</a></span>
+              <span class="login"><a href="#" class="login_link">Log In</a></span>
+            </div>
+        </div>
+    </div>
+    </form>
+    </div> 
+  <div class="container">
+    <div class="profile">
+      <form action="#" method="post">
+        <h2 class="letr_space">Profile</h2>
+
+        <div class="add_photo">
+          <div class="user_photo"><img src="./asses/css/images/Image.jpg"  alt="user_photo"></div>
+            <div class="form_row">
+              <label for="photo"></label>
+              <div class="form-elem">
+                <input type="file" name="photo" id="photo"><span class="icon-cam"></span><span class="icon-del"></span>
+              </div>
+              <span>Up to 1 MB (300x300 px)</span>
+            </div>
+        </div>
+        
+            <div class="flex_point">
+              <div class="form_row">
+                <label for="name">Name</label>
+                <div class="form-elem">
+                  <input type="text" name="name" id="name">
+                </div>
+              </div>
+              <div class="form_row">
+                <label for="email" class="little_word">E-mail</label>
+                <div class="form-elem">
+                  <input type="email" name="email" id="email">
+                </div>
+              </div>
+            </div>
+            <div class="flex_point">
+              <div class="form_row">
+                <label for="country">Country</label>
+                <div class="form-elem">
+                <select name="country" id="country">
+                  <option disabled="disabled" selected="selected">Select</option>
+                  <option value="UA">Ukraine</option>
+                  <option value="PG">Portugal</option>
+                  <option value="GR">Germany</option>
+                  <option value="FR">France</option>
+                </select>
+              </div>
+              </div>
+              <div class="form_row">
+                <label for="city">City</label>
+                <div class="form-elem">
+                  <input type="text" name="city" id="city">
+                </div>
+              </div>
+              </div>
+          </div>
+          <div class="flex_point">
+            <div class="form_row zip_indent">
+              <label for="zip">Zip Code</label>
+              <div class="form-elem">
+                <input type="text" name="zip" id="zip">
+              </div>
+            </div>
+            <div class="form_row">
+              <label for="phone">Phone Number</label>
+              <div class="form-elem">
+                <input type="tel" id="phone" name="phone">
+              </div>
+            </div>
+          </div> 
+            <div class="clearfix">
+              <button type="button" class="btn small_btn">Update</button>
+            </div>
+      </form>
+    </div>  
+  </div>
+  </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+  <script src="./asses/plagins/formstyler/jquery.formstyler.min.js"></script>
+  <script>
+    (function($) {
+      $(function() {
+
+	      $('select').styler();
+
+      });
+  })(jQuery);
+  </script>
+</body>
+</html>

@@ -1,0 +1,374 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #545454;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 90%;
+  max-width: 570px;
+  margin: 0 auto;
+  padding-left: 35px;
+}
+
+.account_form {
+  display: flex;
+  gap: 30px;
+  width: 1140px;
+}
+
+.flex_point {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.add_photo {
+  display: flex;
+}
+
+h1, h2 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #1C1C1C;
+  margin-bottom: 20px;
+}
+h1.letr_space, h2.letr_space {
+  letter-spacing: -0.4px;
+}
+
+.form_row > label {
+  font-size: 15px;
+  line-height: 22px;
+  display: inline-block;
+  margin-bottom: 7px;
+  text-transform: capitalize;
+  letter-spacing: -0.2px;
+}
+.form_row > label.little_word {
+  text-transform: none;
+}
+
+input[type=tel],
+input[type=text],
+input[type=email],
+input[type=file],
+select {
+  width: 245px;
+  height: 38px;
+  border: 1px solid #E4E4E4;
+  border-radius: 6px;
+  background-color: #fff;
+  padding-left: 10px;
+  padding-right: 38px;
+  margin-bottom: 20px;
+  font-size: 15px;
+  outline: 0 none;
+}
+input[type=tel]:focus,
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=file]:focus,
+select:focus {
+  border: 1px solid #295ae0;
+  border-radius: 6px;
+}
+input[type=tel].large_mail,
+input[type=text].large_mail,
+input[type=email].large_mail,
+input[type=file].large_mail,
+select.large_mail {
+  width: 500px;
+  margin-right: 30px;
+  margin-bottom: 5px;
+}
+
+input[type=file] {
+  width: 138px;
+  height: 30px;
+  margin-left: 20px;
+  margin-bottom: -1px;
+}
+input[type=file].icon-cam {
+  padding-left: 20px;
+}
+
+.user_photo {
+  border-radius: 50%;
+  margin-right: 20px;
+  margin-bottom: 16px;
+}
+
+#male {
+  position: absolute;
+  margin-top: 20px;
+  position: absolute;
+  opacity: 0;
+}
+
+#female {
+  position: absolute;
+  margin-top: 20px;
+  position: absolute;
+  opacity: 0;
+}
+
+#male + label {
+  position: relative;
+  cursor: pointer;
+  padding-left: 30px;
+}
+#male + label::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  background: #FFFFFF;
+  border: 1px solid #E4E4E4;
+  border-radius: 50%;
+}
+#male + label::after {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 20px;
+  width: 20px;
+  height: 0px;
+  border-radius: 50%;
+  background: #fff;
+  opacity: 0;
+  transition: 0.2s;
+}
+
+#female + label {
+  position: relative;
+  cursor: pointer;
+  padding-left: 30px;
+}
+#female + label::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  background: #FFFFFF;
+  border: 1px solid #E4E4E4;
+  border-radius: 50%;
+}
+#female + label::after {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 20px;
+  width: 20px;
+  height: 0px;
+  border-radius: 50%;
+  background: #fff;
+  opacity: 0;
+  transition: 0.2s;
+}
+
+#male:checked + label::before {
+  background: #007BFF;
+}
+
+#male:checked + label::after {
+  opacity: 1;
+  top: 5px;
+  left: 7px;
+  width: 8px;
+  height: 8px;
+  background: #fff;
+}
+
+#female:checked + label::before {
+  background: #007BFF;
+}
+
+#female:checked + label::after {
+  opacity: 1;
+  top: 5px;
+  left: 7px;
+  width: 8px;
+  height: 8px;
+  background: #fff;
+}
+
+span {
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: -0.1px;
+}
+span.login {
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: -0.2px;
+  color: #545454;
+}
+span.login.line_before::before {
+  content: "";
+  display: block;
+  position: relative;
+  width: 500px;
+  height: 1px;
+  right: 63px;
+  background-color: #E4E4E4;
+  margin-top: 17px;
+  margin-bottom: 21px;
+}
+span.postscript {
+  margin-top: 2px;
+}
+
+.choice {
+  padding-top: 20px;
+  font-size: 15px;
+  line-height: 22px;
+  margin-bottom: 20px;
+}
+
+.margin_male {
+  margin-right: 14px;
+}
+
+.term_pol {
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: -0.1px;
+  color: #007BFF;
+}
+
+.question {
+  color: #545454;
+  padding-right: 22px;
+}
+
+.login_link {
+  font-weight: 500;
+}
+
+.center_text {
+  width: 435px;
+  text-align: center;
+  padding-left: 67px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  font-weight: 500px;
+  font-size: 15px;
+  line-height: 22px;
+  color: #fff;
+  letter-spacing: -0.1px;
+  background: #007BFF;
+  border: 1px solid #E4E4E4;
+  border-radius: 6px;
+  height: 38px;
+  width: calc(100% - 28px);
+  margin-bottom: 20px;
+}
+.btn.small_btn {
+  width: 150px;
+  margin-left: 5px;
+}
+.btn:hover {
+  background: rgba(42, 52, 196, 0.938);
+}
+
+.jq-selectbox {
+  width: 245px;
+}
+.jq-selectbox__select {
+  height: 38px;
+  padding: 0 45px 0 10px;
+  border: 1px solid #E4E4E4;
+  border-bottom-color: #E4E4E4;
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: none;
+  font: 15px/36px "Roboto", sans-serif;
+  color: #545454;
+  text-shadow: none;
+}
+.jq-selectbox__select:hover {
+  background: #fff;
+}
+.jq-selectbox__select::after {
+  content: "";
+  display: block;
+  position: relative;
+  width: 0px;
+  height: 0px;
+  left: 211px;
+  bottom: 24px;
+  border-bottom: 5px solid #999;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+}
+.jq-selectbox__select:hover::after {
+  border-bottom: 5px solid #000;
+}
+.jq-selectbox__trigger {
+  border-left: none;
+}
+.jq-selectbox__trigger-arrow {
+  top: 20px;
+  right: 12px;
+  width: 10px;
+  height: 10px;
+  border-top: 5px solid #999;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+}
+.jq-selectbox.focused .jq-selectbox__select {
+  border: 1px solid rgba(42, 52, 196, 0.938);
+}
+.jq-selectbox__dropdown {
+  margin: 2px 0 0;
+  border: 1px solid rgba(42, 52, 196, 0.938);
+  border-radius: 6px;
+  background: #FFF;
+  box-shadow: none;
+  font: 15px/15px "Roboto", sans-serif;
+}
+
+.profile {
+  padding-left: 5px;
+}
+
+.icon-cam {
+  width: 13.33px;
+  height: 12px;
+}
+
+.icon-del {
+  width: 9.33px;
+  height: 12px;
+  border: 1px solid #E4E4E4;
+  padding: 9px 10px;
+}
+.icon-del:hover {
+  border: 1px solid #295ae0;
+  border-radius: 6px;
+}
+
+.zip_indent {
+  padding-left: 5px;
+}
