@@ -10,6 +10,7 @@
        <link rel="stylesheet" href="./asses/css/fonts.css">
     <link rel="stylesheet" href="./asses/css/style.css" />
     <link rel="stylesheet" href="./asses/fonts/icomoon/style.css">
+    <link rel="stylesheet" href="./asses/css/response.css">
   </head>
   <body>
     <header id="header">
@@ -28,11 +29,19 @@
     <main>
       <section class="first-screen container">
         <div class="flex">
-        <h1 class="designer">Denis Novik</h1>
+          <div class="title_wrap">
+            <h1 class="designer">Denis Novik</h1>
+            <button type="button" class="btn_hamb">
+              <img src="./asses/images/gamb.png" alt="burger">
+            </button>
+          </div>
         <div class="intro">UX | UI designer<br> 24 years old, Minsk</div>
         <div class=lang><a href="#" class="grey_link">RU</a> | <a href="#" class="grey_link">ENG</a></div>
         </div>
-        <img src="./asses/images/Denis.jpg" alt="Denis_Novik" />
+        <div class="author_photo">
+        <img src="./asses/images/Denis.jpg" alt="Denis_Novik" class="promo_dt" />
+        <img src="./asses/images/Denis-large.jpg" alt="Denis_Novik" class="promo_mt">
+      </div>
       </section>
       <section class="about gray_bg">
         <div class="container">
@@ -62,7 +71,9 @@
         <ul class="product_list">
           <li class="photoshop">
             <div class="applications">
-            <img src="./asses/images/Ps.png" alt="PS"  class="img_style"/>
+              <div class="program_item_pic">
+                <img src="./asses/images/Ps.png" alt="PS"  class="img_style"/>
+              </div>
             <p>Adobe Photoshop</p>
             </div>
           <div class="stars">
@@ -74,7 +85,9 @@
           </div>
           </li><li class="illustrator">
             <div class="applications">
-            <img src="./asses/images/Ai.png" alt="AI"  class="img_style"/>
+              <div class="program_item_pic">
+                <img src="./asses/images/Ai.png" alt="AI"  class="img_style"/>
+              </div
             <p>Adobe Illustrator</p>
             </div>
             <div class="stars">
@@ -86,7 +99,9 @@
             </div>
             </li><li class="AF">
             <div class="applications after_effects">
-            <img src="./asses/images/Ae.png" alt="Ae"  class="img_style"/>
+              <div class="program_item_pic">
+                <img src="./asses/images/Ae.png" alt="Ae"  class="img_style"/>
+              </div>
             <p> Adobe<br> After Effects</p>
             </div>
             <div class="stars">
@@ -98,7 +113,9 @@
             </div>
             </li><li class="figma">
             <div class="applications figma">
-            <img src="./asses/images/Figma.png" alt="figma" class="img_style"/>
+              <div class="program_item_pic">
+                <img src="./asses/images/Figma.png" alt="figma" class="img_style"/>
+              </div>
             <p>Figma</p>
             </div>
               <div class="stars">
@@ -134,13 +151,15 @@
         <div class="button_wrap">
           <a href="mailto:sinyayalv@gmail.com" class="btn">Send message</a>
         </div>
-          <ul class="contact_links flex_icons">
+        <div class="contact_links">
+          <ul class="flex_icons">
           <li class="social_btn"><a href="#" class="icon_social"><span class="icon-ln"></span></a>
           </li><li class="social_btn"><a href="#" class="icon_social"><span class="icon-ig"></span></a>
           </li><li class="social_btn"><a href="#" class="icon_social"><span class="icon-be"></span></a>
           </li><li class="social_btn last"><a href="#" class="icon_social"><span class="icon-db"></span></a>
           </li>
-        </ul>  
+        </ul> 
+      </div> 
         </div>
       <div class="invite">
         <p class="links">
