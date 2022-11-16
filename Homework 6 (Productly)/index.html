@@ -5,14 +5,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Productly</title>
-  <link rel="stylesheet" href="./asses/style.css">
   <link href="http://fonts.cdnfonts.com/css/gotham" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./asses/css/style.min.css">
+  <link rel="stylesheet" href="./asses/css/response.css">
 </head>
 <body>
   <div class="page_wrapper">
@@ -20,8 +21,8 @@
     <div class="container">
       <nav class="top_menu">
         <div class="top_logo">
-        <img src="./asses/image/Bitmap.png" alt="icon">
-        <img src="./asses/image/Productly.png" alt="productly">
+        <img src="./asses/image/Bitmap.png" alt="icon"  class="chenge_logo">
+        <img src="./asses/image/logo.png" alt="productly" class="long_logo">
         </div>
         <ul class="main_menu">
           <li><a href="#">Product</a></li>
@@ -29,6 +30,9 @@
           <li><a href="#">Pricing</a></li>
           <li><a href="#">Resources</a></li>
         </ul>
+        <button type="button" class="btn_hamb">
+          <img src="./asses/image/gamb.png" alt="menu">
+          </button>
         <div class="active_buttons">
           <button name="sing_in" class="sign_in font_edit">Sign In</button>
           <button type="submit" class="sign_in sign_up font_edit">Sign Up</button>
@@ -38,51 +42,125 @@
     </header>
     <main>
       <section class="first_screen">
-          <div class="container flex_img">
+          <div class="container flex_img design_thinking">
             <div class="left-text">
               <h1>The Design Thinking superpowers</h1>
-              <div class="text">Tools, tutorials, design and innovation experts, all in one place! The most intuitive way to imagine your next user experience.</div>
+              <div class="info_text">Tools, tutorials, design and innovation experts, all in one place! The most intuitive way to imagine your next user experience.</div>
               <button name="start" class="started_bot font_edit bold_but">Get started</button>
               </div>
-            <div class="right-img"> 
-              <img src="./asses/image/people.png" alt="people_jump" class="people"></div>
-            </div>
+              <div class="right_img jumping_people">
+                <img src="./asses/image/people.png" alt="people_jump">
+              </div>
+          </div>        
       </section>
       <section class="tools">
         <div class="container">
-          <h2>We design tools to unveil your superpowers</h2>
+          <h2>We design tools to unveil<br> your superpowers</h2>
           <div class="flex_designer_services">
             <div class="design_services">
               <img src="./asses/image/icon.png" alt="cursor" class="tools_icon">
               <h3>First click tests</h3>
-              <div class="text word_width">While most people enjoy casino gambling.</div>
+              <div class="describing word_width">While most people enjoy casino gambling.</div>
             </div>
             <div class="design_services">
               <img src="./asses/image/design.png" alt="horns" class="tools_icon">
               <h3>Design surveys</h3>
-              <div class="text word_width">Sports betting, lottery and bingo playing for the fun</div>
+              <div class="describing word_width">Sports betting, lottery and bingo playing for the fun</div>
             </div>
             <div class="design_services">
               <img src="./asses/image/export.png" alt="heart" class="tools_icon">
               <h3>Preference tests</h3>
-              <div class="text word_width">The Myspace page defines the individual.</div>
+              <div class="describing word_width">The Myspace page defines the individual.</div>
             </div>
             <div class="design_services">
               <img src="./asses/image/clock.png" alt="hourglass" class="tools_icon">
               <h3>Five second tests</h3>
-              <div class="text word_width">Personal choices and the overall personality of the person. </div>
+              <div class="describing word_width last">Personal choices and the overall personality of the person. </div>
             </div>
           </div>
           <button name="sign_up_now" class="started_bot font_edit center_bottom bold_but">Sign up Now</button>
+        </div>
+      </section>
+      <section class="design_prof">
+        <div class="container flex_img design">
+          <div class="left-text">
+            <div class="describing">Effortless Validation for</div>
+            <h2 class="left_name">Design Professionals</h2>
+            <div class="describing intro">
+              The Myspace page defines the individual, his or her characteristics, traits, personal choices and the overall personality of the person. 
+            </div>
+            <h5 class="indent_first">Accessory makers</h5>
+            <div class="describing">
+              While most people enjoy casino gambling, sports betting, lottery and bingo playing for the fun
+            </div>
+            <h5 class="indent_sec">Alterationists</h5>
+            <div class="describing">
+              If you are looking for a new way to promote your business that won’t cost you more money, 
+            </div>
+            <h5 class="indent_sec">Custom Design designers</h5>
+            <div class="describing">
+              If you are looking for a new way to promote your business that won’t cost you more money, 
+            </div>
+          </div>
+          <div class="right_img first_man"> 
+          <img src="./asses/image/man-pen.png" alt="">
+          </div>
+      </div>
+      </section>
+      <section class="manag">
+        <div class="container flex_img manager">
+          <div class="left-text">
+            <div class="describing">Easier decision making for</div>
+            <h2 class="left_name">Product Managers</h2>
+            <div class="describing">
+              The Myspace page defines the individual, his or her characteristics, traits, personal choices and the overall personality of the person. 
+            </div>
+            <div class="check_skills">
+              <ul class="item_list">
+                <li class="check">Never worry about overpaying for your energy bill again. </li>
+                <li class="check">We will only switch you to energy companies that we trust and will treat you right.</li>
+                <li class="check">We track the markets daily and know where the savings are.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="right_img sec_man">
+            <img src="./asses/image/man-notebook.png" alt="man_notebook">
+          </div>
+        </div>
+      </section>
+      <section class="mark">
+        <div class="container flex_img marketer">
+          <div class="left-text paragraph_width">
+            <div class="describing">Optimisation for</div>
+            <h2 class="left_name last_prof">Marketers</h2>
+            <div class="describing intro">
+              Few would argue that, despite the advancements of feminism over the past three decades, women still face a double standard when it comes to their behavior. 
+            </div>
+            <h5 class="indent_first">Accessory makers</h5>
+            <div class="describing">
+              While most people enjoy casino gambling, sports betting, lottery and bingo playing for the fun
+            </div>
+            <h5 class="indent_sec">Alterationists</h5>
+            <div class="describing">
+              If you are looking for a new way to promote your business that won’t cost you more money, 
+            </div>
+            <h5 class="indent_third">Custom Design designers</h5>
+            <div class="describing">
+              If you are looking for a new way to promote your business that won’t cost you more money, 
+            </div>
+          </div>
+          <div class="right_img third_man">
+            <img src="./asses/image/man-desk.png" alt="">
+          </div>
         </div>
       </section>
     </main>
     <footer>
       <div class="container footer_flex">
       <div class="end_logo">
-        <img src="./asses/image/Bitmap.png" alt="icon">
-        <img src="./asses/image/Productly.png" alt="productly">
+        <img src="./asses/image/logo.png" alt="productly">
       </div>
+      <div class="footer_menu">
       <div class="quick_links">
         <h4 class="margin_quick">Quick Links</h4>
         <ul class="links_list">
@@ -101,12 +179,15 @@
           <li>Terms of Service</li>
         </ul>
       </div>
-      <div class="form">
+    </div>
+      <form>
         <h4 class="margin_end">Knowing you're always on the best energy deal. </h4>
         <label for="number"></label>
-        <input type="text"  class="field" name="number" id="number" placeholder="Enter your phone Number" required>
-        <button name="sign_up_now" class="started_bot font_edit bold_but">Sign up Now</button>
+        <input type="tel"  class="field" name="number" id="number" placeholder="Enter your phone Number" required>
+       <div>
+        <button type="submit" name="sign_up_now" class="started_bot font_edit bold_but end_btn">Sign up Now</button>
       </div>
+      </form>
     </div>
     </footer>
   </div>
