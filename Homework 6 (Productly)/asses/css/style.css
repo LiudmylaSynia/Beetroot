@@ -47,13 +47,29 @@ main {
 #header {
   height: 80px;
   line-height: 80px;
-  margin-bottom: 68px;
+  margin-bottom: 24px;
 }
 
 .top_logo {
   display: flex;
   align-items: center;
-  gap: 11.94px;
+}
+
+.btn_hamb {
+  display: none;
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  position: absolute;
+  margin-top: 55px;
+}
+.btn_hamb:hover {
+  transform: scale(1.05);
+}
+
+.chenge_logo {
+  display: none;
 }
 
 .main_menu {
@@ -61,6 +77,7 @@ main {
   width: 352px;
   gap: 20px;
   align-items: center;
+  max-width: 1200px;
 }
 
 .top_menu {
@@ -87,13 +104,12 @@ main {
 }
 
 .first_screen {
-  margin-bottom: 103px;
+  margin-bottom: 146px;
 }
 
 .font_edit {
   display: inline-block;
   height: 46px;
-  line-height: 46px;
   cursor: pointer;
   transition: all 0.2s ease;
   text-decoration: none;
@@ -141,8 +157,13 @@ main {
 }
 
 .center_bottom {
-  margin: 0 514px;
+  display: block;
+  margin: 0 auto;
   margin-bottom: 74px;
+}
+
+.end_btn {
+  left: 0%;
 }
 
 h1 {
@@ -157,9 +178,7 @@ h2 {
   font-weight: 700;
   font-size: 36px;
   line-height: 43.88px;
-  width: 539px;
   text-align: center;
-  margin: 0 331px;
   margin-bottom: 49px;
 }
 
@@ -189,12 +208,16 @@ h5.indent_first {
   padding-top: 41px;
 }
 h5.indent_sec {
-  padding-top: 30px;
+  padding-top: 31px;
+}
+h5.indent_third {
+  padding-top: 31px;
 }
 
 .flex_img {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .flex_imgdesign_thinking {
   gap: 56px;
@@ -207,7 +230,7 @@ h5.indent_sec {
   flex-direction: row-reverse;
 }
 .flex_img.marketer {
-  gap: 157px;
+  gap: 140px;
 }
 
 .info_text {
@@ -239,18 +262,22 @@ h5.indent_sec {
 
 .flex_designer_services {
   display: flex;
+  max-width: 1200px;
+  justify-content: space-between;
+  gap: 40px;
   margin-bottom: 70px;
 }
 
 .tools {
-  background: url("./image/BG.png") center bottom/cover no-repeat;
+  background: url("../image/BG.png") center bottom/cover no-repeat;
+  padding-bottom: 1px;
+  margin-bottom: 104px;
 }
 
 .word_width {
   margin-bottom: 0px;
   width: 270px;
   font-size: 16px;
-  margin-right: 40px;
 }
 
 footer {
@@ -275,9 +302,18 @@ footer {
   gap: 23px;
 }
 
-.form {
+.links_list li:hover {
+  color: #FF9900;
+}
+
+.stuff_list li:hover {
+  color: #FF9900;
+}
+
+form {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 .end_logo {
@@ -305,7 +341,7 @@ footer {
 }
 
 .bold_but {
-  margin-right: 160px;
+  position: relative;
   font-weight: 700;
   font-family: "Poppins", sans-serif;
 }
@@ -322,25 +358,20 @@ footer {
   width: 100%;
   position: relative;
 }
-.right_img.people {
-  top: 3px;
-  left: 32px;
-}
-.right_img.first_man {
-  bottom: 17px;
+.right_img.jumping_people {
+  top: 47px;
+  left: 31px;
 }
 .right_img.sec_man {
   right: 18px;
-  bottom: 43px;
 }
 .right_img.third_man {
-  bottom: 34px;
+  left: 40px;
 }
 
 .left_name {
-  margin: 0;
+  margin: 0px 0px 20px 0px;
   text-align: start;
-  margin-bottom: 20px;
 }
 .left_name.last_prof {
   margin-bottom: 14px;
@@ -349,24 +380,23 @@ footer {
 .left-text {
   max-width: 525px;
   width: 100%;
-  padding-top: 4px;
 }
 .left-text.paragraph_width {
-  width: 505px;
+  width: 1000px;
 }
 
 section {
   margin-bottom: 120px;
 }
 section.design_prof {
-  margin-bottom: 128px;
+  margin-bottom: 102px;
 }
 section.manag {
   padding-left: 40px;
-  margin-bottom: 94px;
+  margin-bottom: 101px;
 }
 section.mark {
-  margin-bottom: 138px;
+  margin-bottom: 170px;
 }
 
 .item_list {
@@ -409,4 +439,10 @@ section.mark {
   right: 37px;
   bottom: 12px;
   margin-left: -20px;
+}
+
+.footer_menu {
+  display: flex;
+  flex-direction: row;
+  gap: 130px;
 }

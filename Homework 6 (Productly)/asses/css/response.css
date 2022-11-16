@@ -1,0 +1,262 @@
+@media screen and (max-width:1300px){
+  .word_width  {
+    width: 250px;
+  }
+  .flex_designer_services {
+    gap: 30px;
+  }
+}
+@media screen and (max-width:1200px){
+  h1 {font-size: 35px;
+    line-height: 48px;
+  }
+  h2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+@media screen and (max-width:1200px){
+  .check::before {
+    margin-right: 14px;
+    width: 30px;
+    height: 30px;
+    float: none;
+  }
+  .check::after {
+    right: 22px;
+    width: 14px;
+    height: 8px;
+    float: left;
+    bottom: 50px;
+    right: 37px;
+    left: 27px;
+  }
+  .item_list {
+    width: 65%;
+  }
+}
+@media screen and (max-width:1100px){
+  .font_edit {
+    height: 40px;
+    line-height: 14px;
+  }
+  .started_bot {
+    width: 160px;
+    height: 44px;
+  }
+  h3 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  h4 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  h5.indent_first{
+    padding-top: 10px;
+  }
+  h5.indent_sec {
+    padding-top: 10px;
+  }
+  h5 {
+    font-size: 16px;
+    line-height: 22px;
+    padding-top: 10px;
+  }
+  section.manag {
+    margin-bottom: 70px;
+  }
+  .flex_designer_services {
+    gap: 5px;
+  }
+  .end_btn {
+    margin-left: 0px;
+  }
+  .field {
+    width: 320px;
+    height: 56px;
+  }
+}
+@media screen and (max-width:1040px){
+  .tools{
+    margin-bottom: 70px;
+  }
+  .flex_designer_services {
+    flex-wrap: wrap;
+    width: 800px;
+    gap: 26px;
+    text-align: center;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  h4 {
+    margin-bottom: 5px;
+  }
+
+}
+@media screen and (max-width:980px){
+  #header {
+    margin-bottom: 10px;
+  }
+  .info_text {
+    font-size: 16px;
+  }
+  .started_bot {
+    height: 40px;
+    font-weight: 400;
+  }
+  .check::before {
+    width: 20px;
+    height: 20px;
+  }
+  .check::after {
+    right: 22px;
+    width: 11px;
+    height: 5px;
+    bottom: 120px;
+    left: 23px;
+  }
+  .item_list {
+    width: 100%;
+    flex-direction: row;
+    padding-top: 10px;
+    gap: 4px;
+  }
+  .main_menu {
+    display: none;
+  }
+  .btn_hamb {
+    display: block;
+  }
+  .links_list, .stuff_list  {
+    gap: 4px;
+  }
+  .field {
+    width: 230px;
+    height: 40px;
+  }
+  .margin_end {
+    margin-bottom: 4px;
+  }
+  .started_bot {
+    margin-top: 0px;
+  }
+  .long_logo {
+    display: none;
+  }
+  .chenge_logo {
+    display: block;
+  }
+} 
+@media screen and (max-width:960px){
+  .check::before{
+    content: '';
+    display: inline-block;
+    position: relative;
+    width: 10px;
+    height: 10px;
+    background-color:#FF9900;;
+    border-radius: 50px;
+    right: 0px;
+    top: 9px;
+    float: left;
+    margin-right: 4px;
+  }
+  .check::after {
+    display: none;
+  }
+  h1 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  h2 {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 34px;
+  }
+  h3 {
+    font-size: 16px;
+    line-height: 8px;
+  }
+  .first_screen {
+    margin-bottom: 50px;
+  }
+  .describing {
+    font-weight: 5px;
+  }
+  .tools_icon {
+  margin-bottom: 16px;
+  width: 40px;
+  height: 40px;
+  }
+  .footer_menu {
+    gap: 5px;
+  }
+}
+@media screen and (max-width:850px) {
+  .footer_menu {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+   .footer_flex {
+    flex-direction: column;
+    width: 74%;
+    gap: 10px;
+  }
+  .end_logo {
+   align-self: center;
+  }
+  .links_list, .stuff_list {
+    flex-direction: column;
+    align-items: center;
+  }
+  h4 {
+    text-align: center;
+  }
+  form {
+    align-items: center;
+  } 
+.margin_quick, .margin_stuff {
+  margin: 0px;
+}
+}
+  
+@media screen and (max-width:830px) {
+  .flex_designer_services {
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+  }
+  .flex_img {
+    flex-direction: column;
+    align-items: center;
+  }
+  .flex_img.manager {
+    flex-direction: column;
+  }
+  .item_list {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width:540px) {
+  .right_img {
+    width: 90%;
+  }
+  .left-text {
+    width: 90%;
+  }
+  .left-text.paragraph_width {
+    width: 90%;
+  }
+}
+@media screen and (max-width:400px) {
+  h1 {
+    margin-bottom: 5px;
+    line-height: 20px;
+  }
+  .active_buttons {
+    gap: 0px;
+  }
+}
